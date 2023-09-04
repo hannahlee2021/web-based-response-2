@@ -1,0 +1,632 @@
+body {
+    background-color: black;
+    min-height: 100%;
+    margin:0;
+    padding:0;
+    position: relative;
+    height: 500vh;
+    overflow-y:scroll;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 40px;
+    font-family: IBM Plex Mono, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    word-spacing: 4px;
+}
+
+h2 {
+    color: #FFF;
+    font-size: 30px;
+    font-family: IBM Plex Mono, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    word-spacing: 4px;
+}
+
+h3 {
+    color: #FFF;
+    font-family: IBM Plex Mono, sans-serif;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+
+h4 {
+    color: #FFF;
+    font-family: IBM Plex Mono, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h5 {
+    color: #FFF;
+    font-family: IBM Plex Mono, sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* .page-0 { 
+    background-color: black;
+    
+} */
+#circle-bg {
+    
+    position: absolute;
+    width: 1267px;
+    height: 1267px;
+    left: 90px;
+    top: -150px;
+    border-radius: 50%;
+    border: 1px solid #FFF;
+}
+
+.assignment-name {
+    position: absolute;
+    left: 50px;
+    top: 100px;
+}
+
+#article-name {
+    position: absolute;
+    left: 50px;
+    top: 200px;
+}
+
+#article-author {
+    position: absolute;
+    left: 445px;
+    top: 260px;
+}
+a:link {
+    text-decoration: none; 
+    
+}
+ #a:hover {
+    
+    color:#ff0000;
+ }
+
+
+
+#stars {
+    position: absolute;
+    left: 675px;
+    top: 350px;
+}
+
+#zoom {
+    position: absolute;
+    left: 1070px;
+    top: 500px;
+
+    letter-spacing: 10px;
+}
+
+#name {
+    position: absolute;
+    left: 1200px;
+    top: 750px;
+
+    
+}
+
+.page-0, .page-1 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+#main-nav {
+    
+    padding: 10px;
+    list-style-type: none;
+    display: flex;
+    float: right;
+    
+    
+    width: 250px;
+    position: relative;
+    box-sizing: border-box;
+    height: 45px;
+  
+}
+#main-nav a {
+    padding-right: 20px;
+    float: right;
+}
+
+#main-nav.sticky {
+    position:fixed;
+    
+    top: 0;
+    right:0;
+  }
+  .navbarOffsetMargin {
+    /* padding-right:100px; */
+    padding-top: 45px;
+    
+  }
+
+  nav a.active {
+    color: #ff0000;
+    
+  }
+/* pg 1 */
+.section-name {
+    position: absolute;
+    
+    left:50px;
+    top: 1500px;
+    
+}
+
+#synchorisation {
+   
+}
+
+#ellipse {
+    position: absolute;
+    left: 375px;
+    top: 15px;
+    
+}
+
+#synchronization {
+    position: absolute;
+    left: 430px;
+    top: 0px;
+}
+
+.definitions {
+    position: absolute;
+    left: 50px;
+    top: 1750px;
+}
+
+.arrows {
+    position: absolute;
+    left: 450px;
+    top:1765px;
+}
+
+.defs {
+    position: absolute;
+    left: 550px;
+    top: 1745px;
+}
+
+.point-1-container {
+    position: absolute;
+    width: 1000px;
+    left: 50px;
+    top: 2050px;
+}
+
+#quarter-bullet {
+    position: absolute;
+    left: 150px;
+    top: 2175px;
+}
+
+.quote-container-1 {
+    position: absolute;
+    width: 500px;
+    left: 250px;
+    top: 2200px;
+}
+
+#img-1 {
+    position: absolute;
+    
+    left: 775px;
+    top: 1580px;
+}
+
+/* pg 2 */
+
+#img-2 {
+    position: absolute;
+    
+    left:800px;
+    top: 2550px;
+}
+
+.section-name-2 {
+    position: absolute;
+    
+    left:50px;
+    top: 2500px;
+}
+
+#arrow-3 {
+    position: absolute;
+    
+    left: 425px;
+    top: 2515px;
+}
+
+.hypothesis-2-explanation-container {
+    position: absolute;
+    width: 350px;
+    left: 510px;
+    top: 2500px;
+}
+
+.internet-2-point {
+    position: absolute;
+    
+    left:50px;
+    top: 2800px;
+}
+#arrow-4 {
+    position: absolute;
+    
+    left:300px;
+    top: 2815px;
+}
+
+#internet-point-2-explanation {
+    position: absolute;
+    width: 828px;
+    left:400px;
+    top: 2800px;
+}
+
+#internet-point-2-explanation-2 {
+    position: absolute;
+    
+    left:400px;
+    top: 2850px;
+}
+#however {
+    position: absolute;
+    
+    left:550px;
+    top: 2950px;
+
+    letter-spacing: 45px;
+}
+
+#search-engine-point {
+    position: absolute;
+    
+    left:50px;
+    top: 3100px;
+}
+
+#quarter-bullet-2 {
+    position: absolute;
+    left: 150px;
+    top: 3175px;
+}
+
+.quote-container-2 {
+    position: absolute;
+    width: 500px;
+    left: 250px;
+    top: 3200px;
+}
+
+/* pg 3 */
+
+.section-name-3 {
+    position: absolute;
+    
+    left:50px;
+    top: 3500px;
+
+}
+
+.point-3-container {
+    position: absolute;
+    width: 1200px;
+    left:0px;
+    top: 180px;
+}
+
+.countries {
+    position: absolute;
+    
+    left:0px;
+    top: 420px;
+}
+
+.arrows-2 {
+    position: absolute;
+    
+    left:200px;
+    top: 435px;
+}
+
+.countries-defs {
+    position: absolute;
+    width: 1000px;
+    left:310px;
+    top: 415px;
+}
+
+#secondary-point-3 {
+    position: absolute;
+    width: 1000px;
+    left:400px;
+    top: 680px;
+}
+
+#img-3 {
+    position: absolute;
+    
+    left:650px;
+    top: 3600px;
+}
+
+/* pg 4 */
+
+.section-name-4 {
+    position: absolute;
+    
+    left: 50px;
+    top: 4500px;
+}
+
+.early-years {
+    position: absolute;
+    
+    left: 0px;
+    top: 200px;
+}
+
+#arrow-7 {
+    position: absolute;
+    
+    left:320px;
+    top: 215px;
+}
+
+.early-years-points {
+    position: absolute;
+    width: 1000px;
+    left:400px;
+    top: 200px;
+}
+
+#sub-point {
+    position: absolute;
+    left: 320px;
+}
+
+#quarter-bullet-3 {
+    position: absolute;
+    
+    left:340px;
+    top: 300px;
+}
+
+#bullet-point-1 {
+    position: absolute;
+    
+    left:450px;
+    top: 330px;
+}
+
+.present {
+    position: absolute;
+    
+    left:0px;
+    top: 450px;
+}
+
+#arrow-8 {
+    position: absolute;
+    
+    left:220px;
+    top: 465px;
+}
+
+.present-points {
+    position: absolute;
+    width: 1000px;
+    left:320px;
+    top: 450px;
+}
+
+#sub-point-2 {
+    position: absolute;
+    
+    left:400px;
+}
+
+#quarter-bullet-4 {
+    position: absolute;
+    
+    left:340px;
+    top: 550px;
+}
+
+#bullet-point-2 {
+    position: absolute;
+    width: 600px;
+    left:450px;
+    top: 580px;
+}
+
+#img-4 {
+    position: absolute;
+    width: 600px;
+    left:900px;
+    top: 4500px;
+}
+
+/* pg 5 */
+
+.section-name-5 {
+    position: absolute;
+    
+    left: 50px;
+    top: 5350px;
+}
+
+.data {
+    position: absolute;
+    
+    left: 0px;
+    top: 150px;
+}
+
+#arrow-9 {
+    position: absolute;
+    
+    left:165px;
+    top: 168px;
+}
+
+.data-points {
+    position: absolute;
+    width: 800px;
+    left:275px;
+    top: 150px;
+}
+
+#quarter-bullet-5 {
+    position: absolute;
+    
+    left:340px;
+    top: 280px;
+}
+#bullet-point-3 {
+    position: absolute;
+    
+    left:440px;
+    top: 310px;
+}
+
+.internet-physicality {
+    position: absolute;
+    
+    left: 0px;
+    top: 400px;
+}
+
+#mini-quarter-bullet {
+    position: absolute;
+    
+    left: 340px;
+    top: 475px;
+}
+
+.physicality-points {
+    position: absolute;
+    
+    left: 400px;
+    top: 485px;
+}
+
+.internet-space {
+    position: absolute;
+    width: 1300px;
+    left: 0px;
+    top: 620px;
+}
+
+#mini-quarter-bullet-2 {
+    position: absolute;
+   
+    left: 340px;
+    top: 700px;
+}
+
+#internet-space-point {
+    position: absolute;
+   
+    left: 410px;
+    top: 710px;
+}
+
+#mini-quarter-bullet-pg-5 {
+    position: absolute;
+   
+    left: 415px;
+    top: 765px;
+}
+
+#geolocation-point {
+    position: absolute;
+   
+    left: 470px;
+    top: 775px;
+}
+
+#img-5 {
+    position: absolute;
+   
+    left: 1150px;
+    top: 5500px;
+}
+
+/* pg 6 */
+
+.section-name-6 {
+    position: absolute;
+   
+    left: 50px;
+    top: 6400px;
+}
+
+.architecture-point {
+    position: absolute;
+   width: 1200px;
+    left: 0px;
+    top: 150px;
+}
+
+#quarter-bullet-6 {
+    position: absolute;
+    
+     left: 200px;
+     top: 330px;
+}
+
+#architecture-point-2 {
+    position: absolute;
+    width:800px;
+     left: 300px;
+     top: 350px;
+}
+
+#mini-quarter-bullet-3 {
+    position: absolute;
+    
+     left: 380px;
+     top: 550px;
+}
+
+#architecture-point-3 {
+    position: absolute;
+    width: 450px;
+    left: 450px;
+    top: 550px;
+}
+
+#img-6 {
+    position: absolute;
+    
+    left: 900px;
+    top: 6350px;
+}
+
+#filler-img {
+    position: absolute;
+    
+    left: 200px;
+    top: 6800px;
+}
